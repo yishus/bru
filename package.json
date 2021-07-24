@@ -1,0 +1,22 @@
+{
+  "name": "bru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/styles.scss dist/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yishus/bru.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yishus/bru/issues"
+  },
+  "homepage": "https://github.com/yishus/bru#readme",
+  "dependencies": {
+    "sass": "^1.36.0"
+  }
+}
