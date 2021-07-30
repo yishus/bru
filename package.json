@@ -2,9 +2,10 @@
   "name": "bru",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/styles.css",
   "scripts": {
-    "build": "sass src/styles.scss dist/styles.css"
+    "build": "sass src/styles.scss dist/styles.css",
+    "postinstall": "yarn build"
   },
   "repository": {
     "type": "git",
