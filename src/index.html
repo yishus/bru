@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Bru</title>
-    <link rel="stylesheet" href="../dist/styles.css" type="text/css" media="screen" />
+    <link
+      rel="stylesheet"
+      href="../dist/styles.css"
+      type="text/css"
+      media="screen"
+    />
   </head>
   <body>
     <h1>Header first</h1>
@@ -15,7 +20,17 @@
     </div>
     <div>
       <h2>Textarea</h2>
-      <textarea></textarea>
+      <div class="flex-column flex-start">
+        <label for="description">Description</label>
+        <textarea id="description"></textarea>
+      </div>
+    </div>
+    <div>
+      <h2>Input text</h2>
+      <div class="flex-row">
+        <label for="email">Email</label>
+        <input type="text" id="email" />
+      </div>
     </div>
   </body>
 </html>
